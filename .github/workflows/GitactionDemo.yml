@@ -1,0 +1,8 @@
+name: Demo 1
+on: [push]
+jobs:
+  First-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "First action trigred from github action side creating...!"
